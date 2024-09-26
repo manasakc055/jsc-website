@@ -10,7 +10,7 @@ import  page8 from "./page8"
 
 const main_data = [
     data,
-    page1 ,
+    page1,
     page2,
     page3,
     page4,

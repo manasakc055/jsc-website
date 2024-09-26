@@ -9,9 +9,7 @@
                 <div class="row text-left text-md-left gap-1">
                     <div class="col-md-4 col-sm-12">
                         <img class=" mt-5" src="../../assets/images/white-logo.svg" alt="" style="height: 45px;">
-                        <p class="footer-para py-4">Lorem ipsum dolor sit consectetur adipiscing <br>elit sed do eiusmod
-                            tempor
-                            incididunt</p>
+                        <p class="footer-para py-4">Your trusted partner in tax, auditing, accounting services and other more related services."</p>
 
                         <div class=" social-media d-flex gap-4 ">
                             <li><a href="https://www.facebook.com/JaasrithaCorporateSolutions/"><i class="bi bi-facebook fs-5"></i></a></li>
@@ -23,16 +21,20 @@
                     <div class=" list1 col-md-2 col-sm-12  text-white mt-3">
                         <div class="py-4">
                             <li class="">
-                                <RouterLink class="routlink" to="/">Home</RouterLink>
+                                <!-- <RouterLink class="routlink" to="/">Home</RouterLink> -->
+                                <a class="routlink" href="/home" aria-current="page">Home</a>
                             </li>
                             <li class="">
-                                <RouterLink class="routlink" to="/about">About</RouterLink>
+                                <!-- <RouterLink class="routlink" to="/about">About</RouterLink> -->
+                                <a class="routlink" href="/about">About</a>
                             </li>
                             <li class="">
-                                <RouterLink class="routlink" to="/service">Service</RouterLink>
+                                <!-- <RouterLink class="routlink" to="/service">Service</RouterLink> -->
+                                <a class="routlink" href="/service">Service</a>
                             </li>
                             <li class="">
-                                <RouterLink class="routlink" to="/contact">Contact</RouterLink>
+                                <!-- <RouterLink class="routlink" to="/contact">Contact</RouterLink> -->
+                                <a class="routlink" href="/contact">Contact</a>
                             </li>
 
                         </div>
@@ -41,16 +43,28 @@
                     <div class=" list2 col-md-2 col-sm-12 text-white mt-3">
                         <div class="py-4">
                             <li class="">
-                                <RouterLink class="routlink" to="/service">Registrations</RouterLink>
+                                <a class="routlink" href="/service">Auditing</a>
                             </li>
                             <li class="">
-                                <RouterLink class="routlink" to="/service">Auditing</RouterLink>
+                                <a class="routlink" href="/service">Investigations</a>
                             </li>
                             <li class="">
-                                <RouterLink class="routlink" to="/service">Investigations</RouterLink>
+                                <a class="routlink" href="/service">EDP & IT related</a>
                             </li>
                             <li class="">
-                                <RouterLink class="routlink" to="/service">EDP & IT related</RouterLink>
+                                <a class="routlink" href="/service">Valuations</a>
+                            </li>
+                            <li class="">
+                                <a class="routlink" href="/service">Accounting Services</a>
+                            </li>
+                            <li class="">
+                                <a class="routlink" href="/service">Tax Assessment & Planning</a>
+                            </li>
+                            <li class="">
+                                <a class="routlink" href="/service">Registrations</a>
+                            </li>
+                            <li class="">
+                                <a class="routlink" href="/service">Training & Education</a>
                             </li>
                                                   
                         </div>
@@ -77,7 +91,7 @@
                 <hr class="bg-light mt-5 ">
                 <div class="row  pb-2">
                     <div class="col text-center">
-                        <p>Copyright 2017 Jasatritha Solutins.</p>
+                        <p>&copy; 2017 Jasatritha Solutions.</p>
                     </div>
                 </div>
             </div>

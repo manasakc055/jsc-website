@@ -1,7 +1,7 @@
 const page4 = {
+    "title": "Difference between Direct and Indirect Taxes",
     "sub-topics":[
         {
-            "title": "Difference between Direct and Indirect Taxes",
             "description-1": "Direct and indirect taxes include all the different types of taxes levied by the government. Direct taxes include the taxes that cannot be transferred or shifted to another person, for instance the income tax an individual pays directly to the government. In this case, the burden of the tax falls flatly on the individual who earns a taxable income and cannot shift the tax to others.",
             "description-2": "Indirect taxes, on the other hand, are taxes which can be shifted to another person. An example would be the Value Added Tax (VAT) that is included in the bill of goods and services that you procure from others. The initial tax is levied on the manufacturer or service provider, who then shifts this tax burden to the consumers by charging higher prices for the commodity by including taxes in the final price.",
             "description-3": "Both direct and indirect taxes are critical components of governmental revenue and consequently the economy. The variations in the indirect taxes may come down in the future once the Goods and Services Tax bill is passed by the parliament, probably by next year.",

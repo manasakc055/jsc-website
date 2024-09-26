@@ -1,6 +1,6 @@
 <template>
       <!-- about -->
-    <div class=" about-sec1 d-flex align-items-center">
+    <div  id="main" class=" about-sec1 d-flex align-items-center">
         <div class="container">
             <div class="row p-4">
                 <div>
@@ -8,7 +8,7 @@
                     <RouterLink  class="routlink" to="/about">About us</RouterLink>
                 </div>
                 <h1 class="my-3 ">About Us</h1>
-                <p>We handle the complexities, so you can focus on <br>achieving your vision.</p>
+                <!-- <p>We handle the complexities, so you can focus on <br>achieving your vision.</p> -->
             </div>
         </div>
     </div>

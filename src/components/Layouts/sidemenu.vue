@@ -15,10 +15,10 @@
                   
                 </li>
                 <li>
-                    <RouterLink to="/sub/3">Difference between Direct and Indirect Taxes </RouterLink>
+                    <RouterLink to="/sub/4">Difference between Direct and Indirect Taxes </RouterLink>
                 </li>
                 <li> 
-                    <RouterLink to="/sub/4">Goods and Service Tax(GST)</RouterLink>
+                    <RouterLink to="/sub/3">Goods and Service Tax(GST)</RouterLink>
                 </li>
                 <li> 
                     <RouterLink to="/sub/5">Capital Gains Tax(CGT)</RouterLink>
