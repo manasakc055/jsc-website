@@ -1,6 +1,6 @@
 <template>
       <!-- about -->
-    <div  id="main" class=" about-sec1 d-flex align-items-center">
+    <div class=" about-sec1 d-flex align-items-center">
         <div class="container">
             <div class="row p-4">
                 <div>

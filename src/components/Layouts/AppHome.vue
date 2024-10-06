@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- about section -->
-        <div id="main"  class=" home-sec1  min-vh-100 d-flex align-items-center">
+        <div class=" home-sec1  min-vh-100 d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class=" col-12 ">

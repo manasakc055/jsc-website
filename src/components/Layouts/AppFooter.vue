@@ -22,7 +22,7 @@
                         <div class="py-4">
                             <li class="">
                                 <!-- <RouterLink class="routlink" to="/">Home</RouterLink> -->
-                                <a class="routlink" href="/home" aria-current="page">Home</a>
+                                <a class="routlink" href="/" aria-current="page">Home</a>
                             </li>
                             <li class="">
                                 <!-- <RouterLink class="routlink" to="/about">About</RouterLink> -->

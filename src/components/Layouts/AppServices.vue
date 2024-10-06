@@ -2,7 +2,7 @@
 <template>
   <div>
     <!-- Service -->
-    <div id="main"  class=" service-sec1 d-flex align-items-center">
+    <div class=" service-sec1 d-flex align-items-center">
         <div class="container">
             <div class="row p-2">
                 <div>
@@ -136,11 +136,11 @@
                 <li>Tax advice to foreign investors investing in India</li>
                 <li>Tax advice to foreigners working in India</li>
                 <li>
-                  Tax advice to Indian entity investingworking in foreign
+                  Tax advice to Indian entity investing/working in foreign
                   countries
                 </li>
                 <li>
-                  advice on collaboration joint venture, opening of branches,
+                  advice on collaboration/joint venture, opening of branches,
                   liaison offices etc on behalf of foreign investors.
                 </li>
                 <li>Advice on Transfer pricing structure.</li>
@@ -230,7 +230,6 @@ export default {
 </script>
   
   <style scoped>
-  
 
 .heading {
   background-color: #317447;
@@ -308,16 +307,6 @@ h4 {
   color: #3a526a;
   /* text-decoration: underline #18ba60 2px; */
 }
-
-@media (max-width: 798px) {
-      li{
-        font-size: 15px;
-      }
-      h5{
-        font-size: 18px;
-      }
-
-    }
 /* 
   ********form***********
   .f {

@@ -42,18 +42,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-2">
             <li class="nav-item">
-              <a  class="nav-link" href="/home" aria-current="page">Home</a>
+              <RouterLink to="/" class="nav-link " aria-current="page">Home</RouterLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about">About</a>
+              <RouterLink class="nav-link" to="/about">About</RouterLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/service">Service</a>
+              <RouterLink class="nav-link" to="/service">Service</RouterLink>
             </li>
-            <li class="nav-item ">
-            <a class="nav-link"  href="/sub" @click="visible = !visible">Tax information</a>
-            </li>
-            <!-- <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <RouterLink class="nav-link dropdown-toggle" role="button" to="/" data-bs-toggle="dropdown"
                 aria-expanded="false">Tax information
               </RouterLink>
@@ -69,9 +66,9 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </li>
               </ul>
-            </li> -->
+            </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact">Contact</a>
+              <RouterLink class="nav-link" to="/contact">Contact</RouterLink>
             </li>
           </ul>
         </div>
@@ -87,19 +84,16 @@
       <hr />
       <div class="offcanvas-body">
         <ul class="navbar-nav">
-          <li class="nav-item ">
-            <a href="/home" class="nav-link" @click="visible = !visible" aria-current="page">Home</a>
+          <li class="nav-item">
+            <RouterLink to="/sub" class="nav-link" @click="visible = !visible" aria-current="page">Home</RouterLink>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="/about" @click="visible = !visible">About</a>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/about" @click="visible = !visible">About</RouterLink>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="/service" @click="visible = !visible">Service</a>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/service" @click="visible = !visible">Service</RouterLink>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link"  href="/sub" @click="visible = !visible">Tax information</a>
-          </li>
-          <!-- <li class="nav-item  dropdown">
+          <li class="nav-item dropdown">
             <RouterLink class="nav-link dropdown-toggle" role="button" to="/sub" data-bs-toggle="dropdown"
               aria-expanded="false">Tax information</RouterLink>
             <ul class="dropdown-menu">
@@ -112,9 +106,9 @@
               </li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-          </li> -->
-          <li class="nav-item ">
-            <a class="nav-link" href="/contact" @click="visible = !visible">Contact</a>
+          </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/contact" @click="visible = !visible">Contact</RouterLink>
           </li>
         </ul>
       </div>
@@ -239,10 +233,5 @@ export default {
   .home-sec4 {
     background-position: bottom;
   }
-}
-.offcanvas ul li:hover{
-  border-bottom: 0.2px solid rgb(207, 205, 205);
-  color:#317447
-  
 }
 </style>

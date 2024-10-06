@@ -1,6 +1,6 @@
 <template>
     <!-- Service -->
-    <div id="main" class=" service-sec1 d-flex align-items-center">
+    <div class=" service-sec1 d-flex align-items-center">
         <div class="container">
             <div class="row p-2">
                 <div>
@@ -14,8 +14,6 @@
             </div>
         </div>
     </div>
-
-
     <!-- Service-section-2 -->
     <div class=" service-sec2 d-flex align-items-center my-5">
         <div class="container">
@@ -23,7 +21,7 @@
                 <!-- col1   sidebar -->
                 <sidemenu />
                 <!-- col-2  information  -->
-                <div class="col-sm-9 pt-4 my-4" id="content">
+                <div class="col-sm-9 pt-4 my-4">
                     <!--row 1-->
                     <div class="row R1">
                         <p class="mini-h mb-0 ">Service</p>
@@ -142,7 +140,6 @@
             </div>
         </div>
     </div>
-
     </template>
     
     <!-- <script>
@@ -204,13 +201,10 @@
             sidemenu
         }
     }
-  
     </script>
-
     
     
     <style scoped>
-
     .blue-box {
       background-color: #f4f5f7;
       border: 1px solid #dad6d6;
@@ -413,11 +407,5 @@
     
     .R3 .R3-ul-list {
         margin-left: 10px;
-    }
-    #btn-back-to-top {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        display: none;
     }
 </style>

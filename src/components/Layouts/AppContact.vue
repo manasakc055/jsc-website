@@ -1,6 +1,6 @@
 <template>
     <!-- Contact -->
-    <div id="main"  class=" contact-sec1 d-flex align-items-center">
+    <div class=" contact-sec1 d-flex align-items-center">
         <div class="container">
             <div class="row p-2">
                 <div>
@@ -16,7 +16,7 @@
     </div>
 
     <!--sec-1-->
-    <section id="p"  class=" contact-sec2 my-5">
+    <section class=" contact-sec2 my-5">
         <div class="container">
             <div class="row gap-5">
                 <div class="col-sm">
