@@ -85,9 +85,7 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
                 <hr class="bg-light mt-5 ">
                 <div class="row  pb-2">
                     <div class="col text-center">
