@@ -44,7 +44,7 @@ const routes = [
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/jsc-website/'),
     routes,
 })
 export default router
