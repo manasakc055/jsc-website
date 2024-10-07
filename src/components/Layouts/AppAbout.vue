@@ -48,7 +48,7 @@
 
                             </div>
                         </div>
-                        <RouterLink class="routlink btn btn-success ps-2" to="/about">More About</RouterLink>
+                        <!-- <RouterLink class="routlink btn btn-success ps-2" to="/about">More About</RouterLink> -->
 
                         <!-- <a href="#" class="btn btn-success">More About <i
                                 class="fa-solid fa-arrow-right ps-2 text-white"></i></a> -->

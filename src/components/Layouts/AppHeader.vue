@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="right d-flex p-1 align-items-center justify-content-around ">
-        <a class="btn  btn-sm btn-success" href="tel:+918374318214">call now</a>
+        <a class="btn  btn-sm btn-success" href="tel:+919705200099">call now</a>
         <div class="news-ticker-header decoration-none d-flex gap-3 flex-inline social-icons">
           <a href="#"><i class="bi bi-facebook fs-5"></i></a>
           <a href="#"><i class="bi bi-instagram fs-5"></i></a>
@@ -42,16 +42,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-2">
           <li class="nav-item">
-            <a  class="nav-link" href="/" aria-current="page">Home</a>
+            <RouterLink  class="nav-link" to="/" aria-current="page">Home</RouterLink >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
+            <RouterLink class="nav-link" to="/about">About</RouterLink >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/service">Service</a>
+            <RouterLink class="nav-link" to="/service">Service</RouterLink >
           </li>
           <li class="nav-item ">
-          <a class="nav-link"  href="/sub" @click="visible = !visible">Tax information</a>
+             <RouterLink class="nav-link"  to="/sub" @click="visible = !visible">Tax information</RouterLink>
           </li>
           <!-- <li class="nav-item dropdown">
             <RouterLink class="nav-link dropdown-toggle" role="button" to="/" data-bs-toggle="dropdown"
@@ -71,7 +71,7 @@
             </ul>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="/contact">Contact</a>
+            <RouterLink  class="nav-link" to="/contact">Contact</RouterLink >
           </li>
         </ul>
       </div>
@@ -88,16 +88,16 @@
     <div class="offcanvas-body">
       <ul class="navbar-nav">
         <li class="nav-item ">
-          <a href="/" class="nav-link" @click="visible = !visible" aria-current="page">Home</a>
+          <RouterLink to="/" class="nav-link" @click="visible = !visible" aria-current="page">Home</RouterLink >
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="/about" @click="visible = !visible">About</a>
+          <RouterLink class="nav-link" to="/about" @click="visible = !visible">About</RouterLink>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="/service" @click="visible = !visible">Service</a>
+          <RouterLink class="nav-link" to="/service" @click="visible = !visible">Service</RouterLink>
         </li>
         <li class="nav-item ">
-          <a class="nav-link"  href="/sub" @click="visible = !visible">Tax information</a>
+          <RouterLink class="nav-link"  to="/sub" @click="visible = !visible">Tax information</RouterLink>
         </li>
         <!-- <li class="nav-item  dropdown">
           <RouterLink class="nav-link dropdown-toggle" role="button" to="/sub" data-bs-toggle="dropdown"
@@ -114,7 +114,7 @@
           </ul>
         </li> -->
         <li class="nav-item ">
-          <a class="nav-link" href="/contact" @click="visible = !visible">Contact</a>
+          <RouterLink  class="nav-link" href="/contact" @click="visible = !visible">Contact</RouterLink >
         </li>
       </ul>
     </div>

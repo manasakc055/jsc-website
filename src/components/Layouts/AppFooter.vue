@@ -21,20 +21,20 @@
                     <div class=" list1 col-md-2 col-sm-12  text-white mt-3">
                         <div class="py-4">
                             <li class="">
-                                <!-- <RouterLink class="routlink" to="/">Home</RouterLink> -->
-                                <a class="routlink" href="/" aria-current="page">Home</a>
+                                 <RouterLink class="routlink" to="/">Home</RouterLink> 
+                                <!-- <a class="routlink" href="/" aria-current="page">Home</a> -->
                             </li>
                             <li class="">
-                                <!-- <RouterLink class="routlink" to="/about">About</RouterLink> -->
-                                <a class="routlink" href="/about">About</a>
+                                <RouterLink class="routlink" to="/about">About</RouterLink>
+                                <!-- <a class="routlink" href="/about">About</a> -->
                             </li>
                             <li class="">
-                                <!-- <RouterLink class="routlink" to="/service">Service</RouterLink> -->
-                                <a class="routlink" href="/service">Service</a>
+                                <RouterLink class="routlink" to="/service">Service</RouterLink>
+                                <!-- <a class="routlink" href="/service">Service</a> -->
                             </li>
                             <li class="">
-                                <!-- <RouterLink class="routlink" to="/contact">Contact</RouterLink> -->
-                                <a class="routlink" href="/contact">Contact</a>
+                                <RouterLink class="routlink" to="/contact">Contact</RouterLink>
+                                <!-- <a class="routlink" href="/contact">Contact</a> -->
                             </li>
 
                         </div>
@@ -43,34 +43,34 @@
                     <div class=" list2 col-md-2 col-sm-12 text-white mt-3">
                         <div class="py-4">
                             <li class="">
-                                <a class="routlink" href="/service">Auditing</a>
+                                <RouterLink class="routlink" to="/service">Auditing</RouterLink >
                             </li>
                             <li class="">
-                                <a class="routlink" href="/service">Investigations</a>
+                                <RouterLink class="routlink" to="/service">Investigations</RouterLink>
                             </li>
                             <li class="">
-                                <a class="routlink" href="/service">EDP & IT related</a>
+                                <RouterLink class="routlink" to="/service">EDP & IT related</RouterLink>
                             </li>
                             <li class="">
-                                <a class="routlink" href="/service">Valuations</a>
+                                <RouterLink class="routlink" to="/service">Valuations</RouterLink>
                             </li>
                             <li class="">
-                                <a class="routlink" href="/service">Accounting Services</a>
+                                <RouterLink class="routlink" to="/service">Accounting Services</RouterLink>
                             </li>
                             <li class="">
-                                <a class="routlink" href="/service">Tax Assessment & Planning</a>
+                                <RouterLink class="routlink" to="/service">Tax Assessment & Planning</RouterLink>
                             </li>
                             <li class="">
-                                <a class="routlink" href="/service">Registrations</a>
+                                <RouterLink class="routlink" to="/service">Registrations</RouterLink>
                             </li>
                             <li class="">
-                                <a class="routlink" href="/service">Training & Education</a>
+                                <RouterLink class="routlink" to="/service">Training & Education</RouterLink>
                             </li>
                                                   
                         </div>
                     </div>
                     <div class=" list2 col-md-2 col-sm-12 text-white mt-3">
-                        <div class="row ">
+                        <div class="row">
                             <div class="gap-2 d-flex">
                                 <i class="bi bi-envelope-fill pt-3"></i>
                                 <p class="pt-3">Jastrithasolution@gmail.com</p>
