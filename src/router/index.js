@@ -39,12 +39,14 @@ const routes = [
     //     component: ()=> import("../components/Layouts/AppContact.vue"),
 
     // },
-
-
 ]
 
 const router = createRouter({
     history: createWebHistory('/jsc-website/'),
     routes,
+    scrollBehavior(to, from, savedPosition) {
+        // Always scroll to top when navigating
+        return { top: 0 };
+    },
 })
 export default router

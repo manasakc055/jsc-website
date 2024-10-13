@@ -42,16 +42,17 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-2">
           <li class="nav-item">
-            <RouterLink  class="nav-link" to="/" aria-current="page">Home</RouterLink >
+            <!-- Replace RouterLink with anchor tag and bind href -->
+            <a class="nav-link" :href="getUrl('/')">Home</a>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/about">About</RouterLink >
+            <a class="nav-link" :href="getUrl('/about')">About</a>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to="/service">Service</RouterLink >
+            <a class="nav-link" :href="getUrl('/service')">Service</a>
           </li>
-          <li class="nav-item ">
-             <RouterLink class="nav-link"  to="/sub" @click="visible = !visible">Tax information</RouterLink>
+          <li class="nav-item">
+            <a class="nav-link" :href="getUrl('/contact')">Contact</a>
           </li>
           <!-- <li class="nav-item dropdown">
             <RouterLink class="nav-link dropdown-toggle" role="button" to="/" data-bs-toggle="dropdown"
@@ -70,9 +71,7 @@
               </li>
             </ul>
           </li> -->
-          <li class="nav-item">
-            <RouterLink  class="nav-link" to="/contact">Contact</RouterLink >
-          </li>
+        
         </ul>
       </div>
     </div>
@@ -87,35 +86,19 @@
     <hr />
     <div class="offcanvas-body">
       <ul class="navbar-nav">
-        <li class="nav-item ">
-          <RouterLink to="/" class="nav-link" @click="visible = !visible" aria-current="page">Home</RouterLink >
-        </li>
-        <li class="nav-item ">
-          <RouterLink class="nav-link" to="/about" @click="visible = !visible">About</RouterLink>
-        </li>
-        <li class="nav-item ">
-          <RouterLink class="nav-link" to="/service" @click="visible = !visible">Service</RouterLink>
-        </li>
-        <li class="nav-item ">
-          <RouterLink class="nav-link"  to="/sub" @click="visible = !visible">Tax information</RouterLink>
-        </li>
-        <!-- <li class="nav-item  dropdown">
-          <RouterLink class="nav-link dropdown-toggle" role="button" to="/sub" data-bs-toggle="dropdown"
-            aria-expanded="false">Tax information</RouterLink>
-          <ul class="dropdown-menu">
-            <li>
-              <RouterLink class="dropdown-item" to="/Sub" @click="visible = !visible">Subservice</RouterLink>
-            </li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li>
-              <hr class="dropdown-divider" />
-            </li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li> -->
-        <li class="nav-item ">
-          <RouterLink  class="nav-link" href="/contact" @click="visible = !visible">Contact</RouterLink >
-        </li>
+        <li class="nav-item">
+            <!-- Replace RouterLink with anchor tag and bind href -->
+            <a class="nav-link" :href="getUrl('/')">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" :href="getUrl('/about')">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" :href="getUrl('/service')">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" :href="getUrl('/contact')">Contact</a>
+          </li>
       </ul>
     </div>
   </div>
@@ -133,6 +116,12 @@ data() {
     visible: false,
   };
 },
+methods: {
+    // Function to generate the URL for Vue Router paths
+    getUrl(route) {
+      return this.$router.resolve(route).href;
+    },
+  },
 
 };
 
