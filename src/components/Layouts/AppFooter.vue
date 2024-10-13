@@ -1,101 +1,98 @@
 <template>
-    <div>
+<div>
 
-        <!--footer-->
-        <footer>
-            <div class="container pt-5">
-                <hr class="bg-light">
+    <!--footer-->
+    <footer>
+        <div class="container pt-5">
+            <hr class="bg-light">
 
-                <div class="row text-left text-md-left gap-1">
-                    <div class="col-md-4 col-sm-12">
-                        <img class=" mt-5" src="../../assets/images/white-logo.svg" alt="" style="height: 45px;">
-                        <p class="footer-para py-4">Your trusted partner in tax, auditing, accounting services and other more related services."</p>
+            <div class="row text-left text-md-left gap-1">
+                <div class="col-md-4 col-sm-12">
+                    <img class=" mt-5" src="../../assets/images/white-logo.svg" alt="" style="height: 45px;">
+                    <p class="footer-para py-4">Your trusted partner in tax, auditing, accounting services and other more related services."</p>
 
-                        <div class=" social-media d-flex gap-4 ">
-                            <li><a href="https://www.facebook.com/JaasrithaCorporateSolutions/"><i class="bi bi-facebook fs-5"></i></a></li>
-                            <li><a href="#"><i class="bi bi-linkedin fs-5"></i></a></li>
-                            <li><a href="#"><i class="bi bi-instagram fs-5"></i></a></li>
-                            <li><a href="#"><i class="bi bi-twitter fs-5"></i></a></li>
-                        </div>
-                    </div>
-                    <div class=" list1 col-md-2 col-sm-12  text-white mt-3">
-                        <div class="py-4">
-                            <li class="">
-                                 <RouterLink class="routlink" to="/">Home</RouterLink> 
-                                <!-- <a class="routlink" href="/" aria-current="page">Home</a> -->
-                            </li>
-                            <li class="">
-                                <RouterLink class="routlink" to="/about">About</RouterLink>
-                                <!-- <a class="routlink" href="/about">About</a> -->
-                            </li>
-                            <li class="">
-                                <RouterLink class="routlink" to="/service">Service</RouterLink>
-                                <!-- <a class="routlink" href="/service">Service</a> -->
-                            </li>
-                            <li class="">
-                                <RouterLink class="routlink" to="/contact">Contact</RouterLink>
-                                <!-- <a class="routlink" href="/contact">Contact</a> -->
-                            </li>
-
-                        </div>
-                    </div>
-              
-                    <div class=" list2 col-md-2 col-sm-12 text-white mt-3">
-                        <div class="py-4">
-                            <li class="">
-                                <RouterLink class="routlink" to="/service">Auditing</RouterLink >
-                            </li>
-                            <li class="">
-                                <RouterLink class="routlink" to="/service">Investigations</RouterLink>
-                            </li>
-                            <li class="">
-                                <RouterLink class="routlink" to="/service">EDP & IT related</RouterLink>
-                            </li>
-                            <li class="">
-                                <RouterLink class="routlink" to="/service">Valuations</RouterLink>
-                            </li>
-                            <li class="">
-                                <RouterLink class="routlink" to="/service">Accounting Services</RouterLink>
-                            </li>
-                            <li class="">
-                                <RouterLink class="routlink" to="/service">Tax Assessment & Planning</RouterLink>
-                            </li>
-                            <li class="">
-                                <RouterLink class="routlink" to="/service">Registrations</RouterLink>
-                            </li>
-                            <li class="">
-                                <RouterLink class="routlink" to="/service">Training & Education</RouterLink>
-                            </li>
-                                                  
-                        </div>
-                    </div>
-                    <div class=" list2 col-md-2 col-sm-12 text-white mt-3">
-                        <div class="row">
-                            <div class="gap-2 d-flex">
-                                <i class="bi bi-envelope-fill pt-3"></i>
-                                <p class="pt-3">Jastrithasolution@gmail.com</p>
-                            </div>
-                            <div class="gap-2 d-flex">
-                                <i class="bi bi-telephone-fill pt-3"></i>
-                                <p class="pt-3">+919705200099</p>
-                            </div>
-                            <div class=" gap-2 d-flex">
-                                <i class="bi bi-geo-alt-fill pt-3"></i>
-                                <p class="pt-3">Venkateswara Nagar, J.N.Road, Rajamahendravaram</p>
-                            </div>
-                        </div>
+                    <div class=" social-media d-flex gap-4 ">
+                        <li><a href="https://www.facebook.com/JaasrithaCorporateSolutions/"><i class="bi bi-facebook fs-5"></i></a></li>
+                        <li><a href="#"><i class="bi bi-linkedin fs-5"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram fs-5"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter fs-5"></i></a></li>
                     </div>
                 </div>
-                <hr class="bg-light mt-5 ">
-                <div class="row  pb-2">
-                    <div class="col text-center">
-                        <p>&copy; 2017 Jasatritha Solutions.</p>
+                <div class=" list1 col-md-2 col-sm-12  text-white mt-3">
+                    <div class="py-4">
+                        <li class="">
+                            <!-- Replace RouterLink with anchor tag and bind href -->
+                            <a class="routlink" :href="getUrl('/')">Home</a>
+                        </li>
+                        <li class="">
+                            <a class="routlink" :href="getUrl('/about')">About</a>
+                        </li>
+                        <li class="">
+                            <a class="routlink" :href="getUrl('/service')">Service</a>
+                        </li>
+                        <li class="">
+                            <a class="routlink" :href="getUrl('/contact')">Contact</a>
+                        </li>
+
+                    </div>
+                </div>
+
+                <div class=" list2 col-md-2 col-sm-12 text-white mt-3">
+                    <div class="py-4">
+                        
+                        <li class="">
+                            <a class="routlink" :href="getUrl('/service')">Auditing</a>
+                        </li>
+                        <li class="">
+                            <a class="routlink" :href="getUrl('/service')">Investigations</a>
+                        </li>
+                        <li class="">
+                            <a class="routlink" :href="getUrl('/service')">EDP & IT related</a>
+                        </li>
+                        <li class="">
+                            <a class="routlink" :href="getUrl('/service')">Valuations</a>
+                        </li>
+                        <li class="">
+                            <a class="routlink" :href="getUrl('/service')">Accounting Services</a>
+                        </li>
+                        <li class="">
+                            <a class="routlink" :href="getUrl('/service')">Tax Assessment & Planning</a>
+                        </li>
+                        <li class="">
+                            <a class="routlink" :href="getUrl('/service')">Registrations</a>
+                        </li>
+                        <li class="">
+                            <a class="routlink" :href="getUrl('/service')">Training & Education</a>
+                        </li>
+                    </div>
+                </div>
+                <div class=" list2 col-md-2 col-sm-12 text-white mt-3">
+                    <div class="row">
+                        <div class="gap-2 d-flex">
+                            <i class="bi bi-envelope-fill pt-3"></i>
+                            <p class="pt-3">Jastrithasolution@gmail.com</p>
+                        </div>
+                        <div class="gap-2 d-flex">
+                            <i class="bi bi-telephone-fill pt-3"></i>
+                            <p class="pt-3">+919705200099</p>
+                        </div>
+                        <div class=" gap-2 d-flex">
+                            <i class="bi bi-geo-alt-fill pt-3"></i>
+                            <p class="pt-3">Venkateswara Nagar, J.N.Road, Rajamahendravaram</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </footer>
+            <hr class="bg-light mt-5 ">
+            <div class="row  pb-2">
+                <div class="col text-center">
+                    <p>&copy; 2017 Jasatritha Solutions.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    </div>
+</div>
 </template>
 
 <script>
@@ -104,12 +101,18 @@ export default {
         return {
             name: "AppFooter"
         }
-    }
+    },
+    methods: {
+    // Function to generate the URL for Vue Router paths
+    getUrl(route) {
+      return this.$router.resolve(route).href;
+    },
+  },
 }
 </script>
+
 <style scoped>
 /*************** footer *****************/
-
 
 footer {
     background-color: #2e363a;
@@ -125,7 +128,6 @@ footer {
 
 footer .routlink:hover {
     text-decoration: underline;
-
 
 }
 
