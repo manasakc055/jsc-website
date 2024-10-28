@@ -22,19 +22,19 @@
                     <div class="py-4">
                         <li class="">
                             <!-- Replace RouterLink with anchor tag and bind href -->
-                            <a class="routlink" :href="getUrl('/')">Home</a>
+                            <RouterLink class="routlink" to='/'>Home</RouterLink>
                         </li>
                         <li class="">
-                            <a class="routlink" :href="getUrl('/about')">About</a>
+                            <RouterLink class="routlink" to='/about'>About</RouterLink>
                         </li>
                         <li class="">
-                            <a class="routlink" :href="getUrl('/service')">Service</a>
+                            <RouterLink class="routlink" to='/service'>Service</RouterLink>
                         </li>
                         <li class="nav-item">
-                            <a class="routlink" :href="getUrl('/sub')">SubServices</a>
+                            <RouterLink class="routlink"  to='/sub'>SubServices</RouterLink>
                         </li>
                         <li class="">
-                            <a class="routlink" :href="getUrl('/contact')">Contact</a>
+                            <RouterLink class="routlink" to='/contact'>Contact</RouterLink>
                         </li>
 
                     </div>
@@ -44,28 +44,28 @@
                     <div class="py-4">
                         
                         <li class="">
-                            <a class="routlink" :href="getUrl('/service')">Auditing</a>
+                            <RouterLink class="routlink" to='/service'>Auditing</RouterLink>
                         </li>
                         <li class="">
-                            <a class="routlink" :href="getUrl('/service')">Investigations</a>
+                            <RouterLink class="routlink" to='/service'>Investigations</RouterLink>
                         </li>
                         <li class="">
-                            <a class="routlink" :href="getUrl('/service')">EDP & IT related</a>
+                            <RouterLink class="routlink" to='/service'>EDP & IT related</RouterLink>
                         </li>
                         <li class="">
-                            <a class="routlink" :href="getUrl('/service')">Valuations</a>
+                            <RouterLink class="routlink" to='/service'>Valuations</RouterLink>
                         </li>
                         <li class="">
-                            <a class="routlink" :href="getUrl('/service')">Accounting Services</a>
+                            <RouterLink class="routlink" to='/service'>Accounting Services</RouterLink>
                         </li>
                         <li class="">
-                            <a class="routlink" :href="getUrl('/service')">Tax Assessment & Planning</a>
+                            <RouterLink class="routlink" to='/service'>Tax Assessment & Planning</RouterLink>
                         </li>
                         <li class="">
-                            <a class="routlink" :href="getUrl('/service')">Registrations</a>
+                            <RouterLink class="routlink" to='/service'>Registrations</RouterLink>
                         </li>
                         <li class="">
-                            <a class="routlink" :href="getUrl('/service')">Training & Education</a>
+                            <RouterLink class="routlink" to='/service'>Training & Education</RouterLink>
                         </li>
                     </div>
                 </div>

@@ -43,19 +43,19 @@
         <ul class="navbar-nav ms-2">
           <li class="nav-item">
             <!-- Replace RouterLink with anchor tag and bind href -->
-            <a class="nav-link" :href="getUrl('/')">Home</a>
+            <RouterLink class="nav-link" to='/'>Home</RouterLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="getUrl('/about')">About</a>
+            <RouterLink class="nav-link" to='/about'>About</RouterLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="getUrl('/service')">Service</a>
+            <RouterLink class="nav-link" to='/service'>Service</RouterLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="getUrl('/sub')">SubServices</a>
+            <RouterLink class="nav-link" to='/sub'>SubServices</RouterLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="getUrl('/contact')">Contact</a>
+            <RouterLink class="nav-link" to='/contact'>Contact</RouterLink>
           </li>
           <!-- <li class="nav-item dropdown">
             <RouterLink class="nav-link dropdown-toggle" role="button" to="/" data-bs-toggle="dropdown"
@@ -88,22 +88,22 @@
     </div>
     <hr />
     <div class="offcanvas-body">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav" data-bs-dismiss="offcanvas" >
         <li class="nav-item">
             <!-- Replace RouterLink with anchor tag and bind href -->
-            <a class="nav-link" :href="getUrl('/')">Home</a>
+            <RouterLink class="nav-link" to='/'>Home</RouterLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="getUrl('/about')">About</a>
+            <RouterLink class="nav-link" to='/about'>About</RouterLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="getUrl('/service')">Service</a>
+            <RouterLink class="nav-link" to='/service'>Service</RouterLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="getUrl('/sub')">SubServices</a>
+            <RouterLink class="nav-link" to='/sub'>SubServices</RouterLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" :href="getUrl('/contact')">Contact</a>
+            <RouterLink class="nav-link" to='/contact'>Contact</RouterLink>
           </li>
       </ul>
     </div>
@@ -122,12 +122,12 @@ data() {
     visible: false,
   };
 },
-methods: {
-    // Function to generate the URL for Vue Router paths
-    getUrl(route) {
-      return this.$router.resolve(route).href;
-    },
-  },
+// methods: {
+//     // Function to generate the URL for Vue Router paths
+//     getUrl(route) {
+//       return this.$router.resolve(route).href;
+//     },
+//   },
 
 };
 
