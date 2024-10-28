@@ -46,8 +46,4 @@ const router = createRouter({
     routes,
  
 })
-router.beforeEach((to, from) => {
-    document.title="Jaastrithasolution";
-    // to and from are both route objects. must call `next`.
-})
 export default router
