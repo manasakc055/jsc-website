@@ -52,6 +52,9 @@
             <a class="nav-link" :href="getUrl('/service')">Service</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" :href="getUrl('/sub')">SubServices</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" :href="getUrl('/contact')">Contact</a>
           </li>
           <!-- <li class="nav-item dropdown">
@@ -95,6 +98,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" :href="getUrl('/service')">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" :href="getUrl('/sub')">SubServices</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" :href="getUrl('/contact')">Contact</a>

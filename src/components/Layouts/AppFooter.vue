@@ -30,6 +30,9 @@
                         <li class="">
                             <a class="routlink" :href="getUrl('/service')">Service</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="routlink" :href="getUrl('/sub')">SubServices</a>
+                        </li>
                         <li class="">
                             <a class="routlink" :href="getUrl('/contact')">Contact</a>
                         </li>
@@ -70,7 +73,7 @@
                     <div class="row">
                         <div class="gap-2 d-flex">
                             <i class="bi bi-envelope-fill pt-3"></i>
-                            <p class="pt-3">Jastrithasolution@gmail.com</p>
+                            <p class="pt-3">Jaastrithasolution@gmail.com</p>
                         </div>
                         <div class="gap-2 d-flex">
                             <i class="bi bi-telephone-fill pt-3"></i>

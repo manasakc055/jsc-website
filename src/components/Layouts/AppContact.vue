@@ -33,7 +33,7 @@
                         <i class="fa-solid fa-phone fs-1"></i>
                         <div class="det">
                             <p class=" head mb-2">Email</p>
-                            <p class=" ">aasrithacorporatesolutions@gmail.com</p>
+                            <p class=" ">Jaasrithacorporatesolutions@gmail.com</p>
                         </div>
                     </div>
                     <div class="details d-flex align-items-top  py-3">

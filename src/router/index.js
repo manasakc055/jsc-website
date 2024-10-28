@@ -44,9 +44,10 @@ const routes = [
 const router = createRouter({
     history: createWebHistory('/jsc-website/'),
     routes,
-    scrollBehavior(to, from, savedPosition) {
-        // Always scroll to top when navigating
-        return { top: 0 };
-    },
+ 
+})
+router.beforeEach((to, from) => {
+    document.title="Jaastrithasolution";
+    // to and from are both route objects. must call `next`.
 })
 export default router
