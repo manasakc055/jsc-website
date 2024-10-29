@@ -52,7 +52,7 @@
             <RouterLink class="nav-link" to='/service'>Service</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to='/sub'>SubServices</RouterLink>
+            <RouterLink class="nav-link" to='/sub'>Tax Information</RouterLink>
           </li>
           <li class="nav-item">
             <RouterLink class="nav-link" to='/contact'>Contact</RouterLink>
@@ -100,7 +100,7 @@
             <RouterLink class="nav-link" to='/service'>Service</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink class="nav-link" to='/sub'>SubServices</RouterLink>
+            <RouterLink class="nav-link" to='/sub'>Tax Information</RouterLink>
           </li>
           <li class="nav-item">
             <RouterLink class="nav-link" to='/contact'>Contact</RouterLink>
@@ -115,6 +115,7 @@
 <script>
 
 import { RouterLink } from "vue-router";
+
 export default {
 data() {
   return {
@@ -122,6 +123,7 @@ data() {
     visible: false,
   };
 },
+
 // methods: {
 //     // Function to generate the URL for Vue Router paths
 //     getUrl(route) {

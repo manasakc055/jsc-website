@@ -5,7 +5,7 @@
             <div class="row p-2">
                 <div>
                     <RouterLink class="routlink" to="/">Home page</RouterLink> <i class="bi bi-chevron-right"></i>
-                    <RouterLink class="routlink" to="/contact">Services</RouterLink>
+                    <RouterLink class="routlink" to="/contact">Tax Information</RouterLink>
                 </div>
                 <h1 class="my-3 ">{{data[id].title}}</h1> 
                 <!-- <p>with over 10 years of experience helping
@@ -24,7 +24,7 @@
                 <div class="col-sm-9 pt-4 my-4">
                     <!--row 1-->
                     <div class="row R1">
-                        <p class="mini-h mb-0 ">Service</p>
+                        <p class="mini-h mb-0 ">Information</p>
     
                         <!--1st data -->
                         <h2 class="pb-2"> {{ data[id].title }}</h2>
@@ -172,6 +172,8 @@
     
     <script>
     import sidemenu from './sidemenu.vue';
+
+
     import {
         useRoute
     } from 'vue-router';
@@ -198,7 +200,8 @@
             }
         },
         components: {
-            sidemenu
+            sidemenu,
+
         }
     }
     </script>
@@ -236,14 +239,29 @@
     
     .service-sec1 {
         color: white;
-        background-image: url("../../assets/images/bg.jpg");
+        background-image: url("../../assets/images/ser.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         height: 400px;
+        position:relative;
     
     }
-    
+    .service-sec1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust opacity as needed */
+    z-index: 1;
+
+}
+.service-sec1> * {
+    position: relative;
+    z-index: 2;
+}
     /* Service-section-2 */
     /* col1 */
     .mini-h,

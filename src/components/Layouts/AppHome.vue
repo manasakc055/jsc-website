@@ -1,7 +1,9 @@
 <template>
     <div>
+        <!-- <Loading :isLoading="isLoading" /> -->
+
         <!-- about section -->
-        <div class=" home-sec1  min-vh-100 d-flex align-items-center">
+        <div   class=" home-sec1   d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class=" col-12 ">
@@ -262,6 +264,7 @@
                                     <div class="p-1">
                                         <h6 class="card-title py-1"><a href="#">General Insurance</a></h6>
                                         <p class="card-text text-secondary">ICICI Lombard General Insurance;</p>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -288,12 +291,29 @@
 </template>
 
 <script>
+import Loading from './Loading.vue';
+
 export default {
     data() {
         return {
             name: "AppHome",
+            // isLoading: true // Start with loading state
+
         };
     },
+//     components: {
+//          Loading,
+//   },
+//   mounted() {
+    
+
+//     // Simulate an API call or data fetching
+//     setTimeout(() => {
+//       this.isLoading = false; // Stop loading after data is loaded
+//     }, 3500); // Adjust the time as needed
+//   },
+  
+    
 };
 
 </script>
@@ -312,12 +332,35 @@ export default {
 /* Home-section-1 */
 .home-sec1 {
     color: white;
-    background-image: url("../../assets/images/bg.jpg");
+    background-image: url("../../assets/images/hero-bg.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+    min-height: 85vh;
+}
+.home-sec1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust opacity as needed */
+    z-index: 1;
 
 }
+.home-sec1 > * {
+    position: relative;
+    z-index: 2;
+}
+@media (max-width: 768px) {
+    .home-sec1 {
+        height: 200px; /* Reduced height for smaller screens */
+    }
+}
+
+
 section {
     padding-top: 80px;
     padding-bottom: 80px;

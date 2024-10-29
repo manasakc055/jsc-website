@@ -143,12 +143,28 @@ export default {
 /*************contact*******************/
 .contact-sec1 {
     color: white;
-    background-image: url("../../assets/images/bg.jpg");
+    background-image: url("../../assets/images/contact-bg2.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     height: 400px;
+    position:relative;
 
+}
+.contact-sec1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    z-index: 1;
+
+}
+.contact-sec1 > * {
+    position: relative;
+    z-index: 2;
 }
 
 .mini-h {

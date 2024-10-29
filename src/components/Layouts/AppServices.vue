@@ -242,7 +242,7 @@ export default {
 /*service-sec1*/
 .service-sec1 {
   color: white;
-  background-image: url("../../assets/images/bg.jpg");
+  background-image: url("../../assets/images/services-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

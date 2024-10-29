@@ -32,7 +32,10 @@
                 <li> 
                     <RouterLink to="/sub/8">Income Tax for FY 2017-18 |Check Slab Rates,Calculation & News</RouterLink>
                 </li>
+               
+
             </ul>
+           
             <!-- form -->
 <!-- 
             <div class="row">
@@ -59,6 +62,7 @@
 </template>
 
 <script>
+
 export default {
     data() {
         return {
@@ -66,7 +70,8 @@ export default {
          
 
         }
-    }
+    },
+   
 }
 
 </script>

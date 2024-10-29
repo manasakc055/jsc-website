@@ -938,7 +938,7 @@ p {
 
 .service-sec1 {
     color: white;
-    background-image: url("../../assets/images/bg-a.jpg");
+    background-image: url("../../assets/images/sub-bg.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
