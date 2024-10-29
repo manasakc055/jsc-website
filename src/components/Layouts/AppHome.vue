@@ -291,7 +291,7 @@
 </template>
 
 <script>
-import Loading from './Loading.vue';
+// import Loading from './Loading.vue';
 
 export default {
     data() {
@@ -301,6 +301,35 @@ export default {
 
         };
     },
+    head: {
+        title: 'My Vue Application Title',
+        meta: [
+            {
+                name: 'description',
+                content: 'This is a description of my Vue application.'
+            },
+            {
+                property: 'og:title',
+                content: 'My Vue Application Title'
+            },
+            {
+                property: 'og:description',
+                content: 'This is a description of my Vue application.'
+            },
+            {
+                property: 'og:image',
+                content: 'https://example.com/path-to-your-image.jpg' // Replace with your image URL
+            },
+            {
+                property: 'og:url',
+                content: 'https://example.com' // Replace with your application's URL
+            },
+            {
+                property: 'og:type',
+                content: 'website'
+            }
+        ]
+    }
 //     components: {
 //          Loading,
 //   },
